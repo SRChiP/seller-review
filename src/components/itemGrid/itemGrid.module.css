@@ -1,0 +1,43 @@
+.gridContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.gridItem {
+    display: flex;
+    width: 130px;
+    height: 130px;
+    border: darkgray 2px solid;
+    border-radius: 12px;
+    margin: 12px;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    user-select: none;
+    flex-direction: column;
+}
+
+.gridItemSelected {
+    background-color: darkgray;
+}
+
+.alignRight {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    align-items: end;
+}
+
+.itemOut {
+    border: red 2px solid !important;
+}
+
+.gridItemSubtitle {
+    font-size: 12px;
+    font-style: italic;
+}
